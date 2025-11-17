@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>Result</title></head>
+<body>
+  <h1>Analysis Complete</h1>
+  <video controls><source src="{{ url_for('static', filename='output.mp4') }}" type="video/mp4"></video>
+  <p><strong>Crowd Count:</strong> {{ crowd_count }}</p>
+  <p><strong>People Tracked:</strong> {{ tracked_count }}</p>
+  <a href="/">Back</a>
+</body>
+</html>

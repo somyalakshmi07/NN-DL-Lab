@@ -1,0 +1,28 @@
+# Large files and datasets
+data/archive.zip
+*.zip
+*.tar.gz
+*.7z
+
+# ONNX and model files (optional: keep if < 100 MB each)
+# *.onnx
+# *.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

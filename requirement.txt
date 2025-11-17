@@ -1,0 +1,14 @@
+torch>=2.0
+torchvision
+opencv-python
+numpy
+matplotlib
+scipy
+scikit-learn
+h5py
+onnx
+onnxruntime-gpu
+flask
+flask-wtf
+ultralytics
+lap

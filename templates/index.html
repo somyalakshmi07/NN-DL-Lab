@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crowd Counter Pro</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Crowd Counter + Person Tracker</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" accept="image/*,video/*" required>
+      <button type="submit">Analyze</button>
+    </form>
+    <hr>
+    <h3>Or use RTSP Stream:</h3>
+    <form method="POST" action="/stream">
+      <input type="text" name="rtsp_url" placeholder="rtsp://..." required>
+      <button type="submit">Start Stream</button>
+    </form>
+  </div>
+</body>
+</html>

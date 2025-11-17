@@ -1,0 +1,5 @@
+body { font-family: Arial; background: #f4f4f4; text-align: center; padding: 50px; }
+.container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+input, button { padding: 10px; margin: 10px; font-size: 16px; }
+button { background: #007bff; color: white; border: none; cursor: pointer; }
+button:hover { background: #0056b3; }
